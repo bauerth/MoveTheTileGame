@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp" />
+
+      <!--   <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/drag_tile_1"
+            android:padding="15dp" />
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/drag_tile_2"
+            android:padding="15dp" />
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drag_tile_1"
+            android:padding="15dp" />
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drag_tile_2"
+            android:layout_toRightOf="@id/drag_tile_4"
+            android:padding="15dp" />
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drag_tile_3"
+            android:layout_toRightOf="@id/drag_tile_5"
+            android:padding="15dp" />
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drag_tile_4"
+            android:padding="15dp" />
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drag_tile_5"
+            android:layout_toRightOf="@id/drag_tile_7"
+            android:padding="15dp" />
+
+        <de.dfki.movethetileremote.gui.DraggableTile
+            android:id="@+id/drag_tile_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drag_tile_6"
+            android:layout_toRightOf="@id/drag_tile_8"
+            android:padding="15dp" />
+             -->
+    </RelativeLayout>
+</ScrollView>

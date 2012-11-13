@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">MoveTheTile Remote Client</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_solve">Lösen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ipAdress">IP Adresse</string>
+    <string name="mainInfo">Bitte geben Sie die IP Adresse ein, danach können Sie das Spiel starten</string>
+    <string name="startButton">Spiel starten</string>
+    <string name="newGameBtn">Neues Spiel</string>
+
+</resources>
